@@ -3,10 +3,10 @@
 
 def key_for_min_value(name_hash)
   
-  highest = 0
+  highest = 100000
   
     name_hash.each do |key, value|
-      if value > highest
+      if value < highest
         highest = value
       end
     end
