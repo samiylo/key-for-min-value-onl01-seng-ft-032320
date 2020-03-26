@@ -18,9 +18,10 @@ def key_for_min_value(name_hash)
       end
     end
     if result.length == 0 
-      return nil
-    else
-     result[key]
+      
+    result.each do |key, value|
+      return key
+    end
    end
 
 end
