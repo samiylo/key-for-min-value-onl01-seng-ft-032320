@@ -15,6 +15,7 @@ def key_for_min_value(name_hash)
           result[key] = value
         
       end
+      end
     end
     name_hash[]
 
