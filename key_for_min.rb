@@ -17,13 +17,12 @@ def key_for_min_value(name_hash)
       end
       end
     end
-    if result.length == 0 
-      
-      result.each do |key, value|
+    if result.length > 0
+      result.each do |key,value|
         return key
       end
     else
-      return nil 
-   end
+      return nil
+    end
 
 end
