@@ -20,6 +20,6 @@ def key_for_min_value(name_hash)
     if result.length == 0 
       return nil
     end
-    result
+    result[key]
 
 end
