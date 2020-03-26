@@ -22,8 +22,6 @@ def key_for_min_value(name_hash)
     result.each do |key, value|
       return key
     end
-  else
-    return nil 
    end
 
 end
